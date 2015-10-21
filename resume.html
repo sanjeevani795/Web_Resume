@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeevani Resume</title>
+    <link href="resume.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="webfontkit/stylesheet.css" type="text/css">
+    <script type="text/javascript">
+        //show and hide experience div
+        function showHide(e){
+            var btn = e.target;
+            var detail = e.target.nextElementSibling.nextElementSibling;
+            if(detail.style.display == "block" || detail.style.display == ""){
+                detail.style.display = "none";
+                btn.style.backgroundImage = "url(images/bottom.png)";
+                btn.title = "Show Details";
+            }
+            else
+            {
+                detail.style.display = "block";
+                btn.style.backgroundImage = "url(images/top.png)";
+                btn.title = "Hide Details";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="header">
+        <img id="myLogo" src="images/ss.jpeg" alt="SS">
+        <div id="name"><h2>Sanjeevani Shrivastava</h2>
+        <h4>Web Developer</h4></div>
+        <div id="links">
+            <a href="https://www.linkedin.com/pub/sanjeevani-shrivastava/19/35b/16" ><img id="myLinkedin" src="images/linkedin.png" alt="Linked-in"></a>
+            <a href="https://plus.google.com/u/0/+sanjeevanishrivastava" ><img id="myGoogle" src="images/google.png" alt="Google"></a>
+            <a href="https://www.facebook.com/sanjeevani.shrivastava.5" ><img id="myFacebook" src="images/facebook.png" alt="Facebook"></a>
+        </div>
+    </div>
+    <div id="topSection">
+        <img id="myPhoto" src="images/Sanjeevani.jpg" alt="My Photo" >
+
+        <p>I am a Full Stack Web Developer, currently seeking for job opportunities. My strengths are sincerity and Adaptability, which makes me more suitable for becoming software professional.
+            I can develop an organization’s specific solutions by helping them with innovative ideas and technical skills.</p>
+
+        <fieldset id="aboutField">
+            <h3>Website</h3>
+            <p>something.com</p>
+            <h3>Contact</h3>
+            <p>1-(669) 226 7450</p>
+            <h3>Email</h3>
+            <p>sanjana795@gmail.com</p>
+        </fieldset>
+    </div>
+    <div id="middleSec">
+        <div id="education" >
+            <h2>Education</h2>
+            <h4>Certification in Internet Programming & Development</h4><span>Current</span>
+            <h5>UCSC Extension Silicon Valley, Santa Clara, CA, USA </h5>
+
+            <h4>Master of Science in Computer Science and Engineering</h4><span>May 2011</span>
+            <h5>Warangal, India</h5>
+
+            <h4>Bachelor of Engineering in Computer Science and Engineering</h4><span>May 2009</span>
+            <h5>India</h5>
+        </div>
+        <div id="experience">
+            <h2>Experience</h2>
+            <h4>Innovative Management 360 Santa Clara</h4>
+            <button type="button" id="btnim360" onclick="showHide(event)" title="Hide Details"></button>
+            <h5>Volunteer Intern<span>Present</span></h5>
+            <p id="im360">Working on Recommendation Engine tool called Prediction IO to build and develop recommendations for their customers.
+                Also helping with database administration and automation scripts.</p>
+
+            <h4>Intel India Technology Pvt. Ltd. Bangalore</h4>
+            <button type="button" id="btnintelReg" onclick="showHide(event)" title="Hide Details"></button>
+            <h5>Infrastructure Design Automation Engineer<span>July 2011 - May 2014</span></h5>
+            <p id="intelReg">Developed a web application to show tabular reports, project indicators and graphs to gain 98% improvement over previous
+                Indicators. Developed query constructor for providing data filtering, profiling to help users saving their queries.
+                Mentored and assisted Interns in understanding architecture of applications and acted as a key player in different
+                development activities.</p>
+
+            <h4>Intel India Technology Pvt. Ltd. Bangalore</h4>
+            <button type="button" id="btnintelInt" onclick="showHide(event)" title="Hide Details"></button>
+            <h5>Intern<span>May 2010 – May 2011</span></h5>
+            <p id="intelInt">Developed a client – server application, which handles various automation requirements desired by customers.
+                It resulted in 80% time saving in new hire integration and proved to be instrumental in planning of resources
+                used across teams.
+            </p>
+        </div>
+        <div id="skillSet">
+            <h2>Skills</h2>
+            <h4>Programming</h4>
+            <p>JavaScript, HTML5, CSS3, Angular JS, Node JS, Express, Mongo, AJAX Framework, Ruby & Ruby on Rails, Perl, Python,
+                Shell Script, ASP.net, C#.net</p>
+
+            <h4>Databases</h4>
+            <p>Mongo,Cassandra, MySql</p>
+
+            <h4>Tools</h4>
+            <p>WebStorm, PredictionIO,  Gradle, MySQL Workbench, Visual studio, SQL Yog</p>
+
+            <h4>Operating Systems</h4>
+            <p>Unix, MAC, Windows</p>
+
+            <h4>Course work</h4>
+            <p>MEAN Stack, NoSQL, Web Application Testing, DBMS, Data Structure, Algorithms</p>
+        </div>
+    </div>
+</body>
+</html>

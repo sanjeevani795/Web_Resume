@@ -1,0 +1,200 @@
+body {
+    background-image: url(images/background.png);
+    max-width:75%;
+    margin: 0 auto;
+}
+
+/******* Page header *****/
+#header {
+    width: 100%;
+    position: relative;
+    margin: 10px auto;
+    height: 100px;
+    float:left;
+    border-bottom: 2px solid black;
+}
+
+#header img {
+    width: 8%;
+    height: 70px;
+    padding: 1em 1em 1em 0;
+    float:left;
+}
+#name{
+    width: 30%;
+    height:110px;
+    float:left;
+    display:block;
+}
+#name h2 {
+    font-family: 'ambleitalic', sans-serif;
+    font-weight: bold;
+    float:left;
+    padding: 0;
+}
+
+#name h4 {
+    color: #666666;
+    float:left;
+    padding: 0;
+    margin-top: -10px;
+}
+
+#links {
+    margin-top:60px;
+    width: 10%;
+    float:right;
+    height:80px;
+}
+
+#links a img{
+    width: 23%;
+    height: 26px;
+    padding:5px;
+}
+
+/***********top section of page**************/
+#topSection {
+    width: 100%;
+    height: 250px;
+    float:left;
+    margin:10px auto;
+    border-bottom: 1px solid black;
+}
+#topSection img{
+    width: 18%;
+    float:left;
+    height:85%;
+}
+#topSection p{
+    float:left;
+    width: 40%;
+    height: 10%;
+    padding:0 2% 2% 2%;
+    text-align: justify;
+}
+
+#aboutField {
+    float:right;
+    width: 20%;
+    display:block;
+    border:none;
+}
+
+#aboutField h3, #aboutField p{
+    float:left;
+    width: 100%;
+    margin:7px;
+    padding:0;
+}
+#aboutField p{
+    border-bottom: 1px solid grey;
+}
+/*********** Middle section of page ***************/
+
+#middleSec{
+    width:100%;
+    height:600px;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#education {
+    width: 48%;
+    float:left;
+    text-align: justify;
+    padding: 0px 0 5px 0;
+    height:36%;
+    border-bottom: 1px solid black;
+}
+#education h4{
+    width:80%;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#education h5{
+    width:70%;
+    float:left;
+    margin: 0;
+    padding: 5px 0;
+    font-weight: normal;
+}
+#education span{
+    float:right;
+    width: 15%;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+#skillSet {
+    width:48%;
+    float: left;
+    text-align: justify;
+    height:40%;
+    margin: 0;
+}
+
+#skillSet h4{
+    width:100%;
+    float:left;
+    margin:0;
+    padding:5px 0;
+}
+
+#skillSet p {
+    width:100%;
+    float:left;
+    margin:0;
+    padding:5px 10px 5px 0;
+}
+
+
+#experience{
+    width:48%;
+    float:right;
+    padding: 0px 0 5px 0;
+    text-align: justify;
+    height:100%;
+}
+
+#experience h4{
+    width:95%;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#btnim360, #btnintelReg, #btnintelInt {
+    width: 20px;
+    height: 20px;
+    background-image: url(images/top.png);
+    float:right;
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    border:none;
+}
+#experience h5 {
+    width:100%;
+    float:left;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: normal;
+}
+
+#experience span{
+    float:right;
+    width: 30%;
+    font-size: 1em;
+    text-align: right;
+}
+
+#experience p{
+    width:100%;
+    float:left;
+    margin-top:0;
+    margin-bottom: 70px;
+    display:block;
+}
